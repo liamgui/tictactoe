@@ -1,0 +1,94 @@
+body {
+	background-color: #333333;
+	font-family: proxima-nova, sans-serif;
+}
+
+.title {
+	margin-top: 6em;
+}
+
+.title h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin: auto auto;
+	font-size: 50px;
+	color: #b9b9b9;
+}
+
+.grid {
+	border: thin solid black;
+	margin: 0 auto;
+	margin-top: 3em;
+	max-width: 300px;
+	display: none;
+}
+.center {
+	margin: 0 auto;
+	display: flex;
+}
+h2 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.row {
+	display: flex;
+}
+.slot {
+	border: thin solid black;
+	width: 100px;
+	height: 100px;
+	background-color: #b9b9b9;
+}
+
+.difficulty {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	color: white;
+	width: 15%;
+	margin-top: 1em;
+}
+#start {
+	color: #474747;
+	font-size: 1.5em;
+	letter-spacing: 0.075em;
+	margin: 0 auto;
+	text-transform: uppercase;
+	border: thin solid #474747;
+	border-radius: 10px;
+	display: inline-block;
+	line-height: 1em;
+	padding: 0.75em;
+	margin-top: 3em;
+	background-color: darkgray;
+	transition: background-color 0.1s ease-in, color 0.3s ease-in, border 0.3s ease-in;
+	/* padding: 1em; */
+}
+#start:hover {
+	color: white;
+	border: gray thin solid;
+	background-color: gray;
+	transition: background-color 0.1s ease-in, color 0.3s ease-in, border 0.3s ease-in;
+}
+.difficulty label {
+	margin: 0 2em;
+	font-size: 1.5em;
+}
+.difficulty input:checked {
+	color: red;
+	background-color: red;
+}
+.slot span {
+	font-size: 7em;
+	line-height: 0.75;
+	font-family: "consolas", sans-serif;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
