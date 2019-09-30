@@ -29,7 +29,10 @@ function turn(player, location) {
 }
 
 function checkWinner() {
-	// TODO check for any row, col, or diagonal
+	// TODO check for any row, col, or diagonal within 3 for matching
+	// TODO check clockwise, then check for a third one out, if not, go back and check backwards
+	// TODO move on to next check
+	// TODO only check from input location
 }
 
 function startGame(e) {
